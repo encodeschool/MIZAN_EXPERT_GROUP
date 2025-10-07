@@ -1,0 +1,77 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "contact": "Contact",
+  "language": "Language",
+  "contactUs": "Contact Us",
+  "services": {
+    "title": "Services",
+    "legal": "Legal Services",
+    "accounting": "Accounting Services"
+  },
+  "hero": {
+    "title": "Your Reliable Partner in Legal and Accounting Services",
+    "subtitle": "We provide professional consulting, accounting, and legal support for your business success.",
+    "button": "Get a Consultation"
+  },
+  "legal": {
+    "consulting": "Legal Consulting",
+    "consultingDesc": "We provide professional legal advice on corporate, civil, and tax law.",
+    "documents": "Document Preparation",
+    "documentsDesc": "Drafting and reviewing contracts, agreements, and other legal documents.",
+    "corporate": "Corporate Law",
+    "corporateDesc": "Company registration, restructuring, mergers, and acquisitions.",
+    "labor": "Labor Law",
+    "laborDesc": "Consulting on employment relations, contracts, and dispute resolution.",
+    "ip": "Intellectual Property",
+    "ipDesc": "Trademark and patent registration, protection of intellectual rights.",
+    "contracts": "Contract Law",
+    "contractsDesc": "Comprehensive support for contract negotiations and drafting."
+  },
+  "accounting": {
+    "bookkeeping": "Bookkeeping",
+    "bookkeepingDesc": "Full-cycle accounting and reporting services for all business types.",
+    "analysis": "Financial Analysis",
+    "analysisDesc": "Analysis of financial results to improve efficiency and profit.",
+    "tax": "Tax Consulting",
+    "taxDesc": "Tax planning, reporting, and representation before authorities.",
+    "salary": "Payroll",
+    "salaryDesc": "Payroll management, salary calculation, and HR reporting.",
+    "planning": "Financial Planning",
+    "planningDesc": "Developing budgets and strategic financial plans.",
+    "audit": "Audit Support",
+    "auditDesc": "Internal audits and preparation for external inspections."
+  },
+  "why": {
+    "title": "Why Choose Us",
+    "team": "Expert Team",
+    "teamDesc": "Experienced professionals in law and accounting.",
+    "speed": "Efficiency",
+    "speedDesc": "We deliver quality services quickly and reliably.",
+    "confidentiality": "Confidentiality",
+    "confidentialityDesc": "We protect all client data and business information.",
+    "prices": "Fair Prices",
+    "pricesDesc": "We offer transparent and reasonable pricing for all services."
+  },
+  "stats": {
+    "clients": "Satisfied Clients",
+    "experience": "Years of Experience",
+    "cases": "Completed Cases",
+    "experts": "Qualified Experts"
+  },
+  "form": {
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "description": "Professional legal and accounting services to help your business grow confidently.",
+    "contacts": "Contacts",
+    "quickLinks": "Quick Links",
+    "address": "Tashkent, Uzbekistan",
+    "rights": "All rights reserved."
+  },
+  "Have questions or need assistance? Fill out the form or reach us using the details below.": "Have questions or need assistance? Fill out the form or reach us using the details below."
+}

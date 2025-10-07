@@ -1,3 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #013236;
+  --secondary-color: #d6b170;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +23,28 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.primary-color {
+  background-color: var(--primary-color);
+}
+
+.secondary-color-text {
+  color: var(--secondary-color);
+}
+
+.secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.herobg {
+  background: 
+    linear-gradient(rgba(1, 50, 54, 1), rgba(1, 50, 54, 1)), /* color overlay with opacity */
+    url('./static/img/hero.jpg') no-repeat center center;
+  background-size: cover;
 }

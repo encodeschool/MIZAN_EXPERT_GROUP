@@ -1,0 +1,77 @@
+{
+  "home": "Bosh sahifa",
+  "about": "Biz haqimizda",
+  "contact": "Aloqa",
+  "language": "Til",
+  "contactUs": "Biz bilan bog‘laning",
+  "services": {
+    "title": "Xizmatlar",
+    "legal": "Yuridik xizmatlar",
+    "accounting": "Buxgalteriya xizmatlari"
+  },
+  "hero": {
+    "title": "Huquqiy va buxgalteriya xizmatlarida ishonchli hamkoringiz",
+    "subtitle": "Biz sizning biznesingiz muvaffaqiyati uchun yuridik va buxgalteriya bo‘yicha professional xizmatlar ko‘rsatamiz.",
+    "button": "Konsultatsiya olish"
+  },
+  "legal": {
+    "consulting": "Huquqiy maslahatlar",
+    "consultingDesc": "Korporativ, fuqarolik va soliq huquqi bo‘yicha professional maslahatlar.",
+    "documents": "Hujjatlar tayyorlash",
+    "documentsDesc": "Shartnomalar va boshqa huquqiy hujjatlarni tuzish va tahlil qilish.",
+    "corporate": "Korporativ huquq",
+    "corporateDesc": "Kompaniyalarni ro‘yxatdan o‘tkazish va qayta tashkil etish.",
+    "labor": "Mehnat huquqi",
+    "laborDesc": "Mehnat munosabatlari va nizolar bo‘yicha maslahatlar.",
+    "ip": "Intellektual mulk",
+    "ipDesc": "Savdo belgilarini ro‘yxatdan o‘tkazish va mualliflik huquqini himoya qilish.",
+    "contracts": "Shartnomaviy huquq",
+    "contractsDesc": "Shartnomalarni tuzish, tahlil qilish va huquqiy qo‘llab-quvvatlash."
+  },
+  "accounting": {
+    "bookkeeping": "Buxgalteriya hisobi",
+    "bookkeepingDesc": "To‘liq buxgalteriya hisobi va hisobot yuritish.",
+    "analysis": "Moliyaviy tahlil",
+    "analysisDesc": "Moliyaviy natijalarni tahlil qilish va samaradorlikni oshirish.",
+    "tax": "Soliq maslahati",
+    "taxDesc": "Soliq rejalashtirish va hisobot topshirish bo‘yicha yordam.",
+    "salary": "Ish haqi hisobi",
+    "salaryDesc": "Ish haqi hisoblash va kadrlar hisobotini yuritish.",
+    "planning": "Moliyaviy rejalashtirish",
+    "planningDesc": "Byudjet tuzish va strategik rejalashtirish.",
+    "audit": "Audit xizmati",
+    "auditDesc": "Ichki audit va tashqi tekshiruvlarga tayyorgarlik."
+  },
+  "why": {
+    "title": "Nega bizni tanlashadi",
+    "team": "Mutaxassislar jamoasi",
+    "teamDesc": "Tajribali yuristlar va buxgalterlar.",
+    "speed": "Tezkorlik",
+    "speedDesc": "Ishlarni sifatli va tez bajarish kafolatlanadi.",
+    "confidentiality": "Maxfiylik",
+    "confidentialityDesc": "Biz mijozlar ma’lumotlarini to‘liq himoya qilamiz.",
+    "prices": "Adolatli narxlar",
+    "pricesDesc": "Barcha xizmatlar uchun shaffof va maqbul narxlar."
+  },
+  "stats": {
+    "clients": "Mamnun mijozlar",
+    "experience": "Yillik tajriba",
+    "cases": "Bajarilgan ishlar",
+    "experts": "Malakali mutaxassislar"
+  },
+  "form": {
+    "name": "Ismingiz",
+    "email": "Elektron pochta",
+    "phone": "Telefon raqamingiz",
+    "message": "Xabaringiz",
+    "send": "Yuborish"
+  },
+  "footer": {
+    "description": "Biznesingiz rivoji uchun ishonchli yuridik va buxgalteriya xizmatlari.",
+    "contacts": "Aloqa",
+    "quickLinks": "Tezkor havolalar",
+    "address": "Toshkent, O‘zbekiston",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "Have questions or need assistance? Fill out the form or reach us using the details below.": "Savollaringiz bormi yoki yordam kerakmi? Formani to'ldiring yoki quyidagi ma'lumotlardan foydalanib biz bilan bog'laning."
+}
