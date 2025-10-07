@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
-        working-directory: mizangroup_uz/web
+        working-directory: mizangroup_uz/**
 
       # - name: Run tests
       #   run: npm test -- --watchAll=false
@@ -30,7 +30,7 @@ jobs:
         run: |
           cp .env.production .env
           CI=false npm run build | tee build-logs.txt
-        working-directory: mizangroup_uz/web
+        working-directory: mizangroup_uz/**
 
       - name: Upload build logs
         uses: actions/upload-artifact@v4
