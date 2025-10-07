@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: react-web-build-logs
-          path: mizangroup_uz/build-logs.txt
+          path: build-logs.txt
 
       - name: Deploy to VDS
         uses: appleboy/scp-action@v0.1.4
@@ -46,7 +46,7 @@ jobs:
           host: ${{ secrets.VDS_HOST }}
           username: ${{ secrets.VDS_USER }}
           key: ${{ secrets.VDS_SSH_KEY }}
-          source: "mizangroup_uz/build/*"
+          source: "build/"
           target: "~/mizangroup_uz/web"
 
       - name: Restart Nginx
