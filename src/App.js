@@ -171,7 +171,7 @@ function App() {
         </div>
       </section>
 
-      {/* Contact */}
+      {/* Contact section goes here */}
       <section id="contact" className="py-16 lg:py-24 container mx-auto px-4 sm:px-6 lg:px-8">
         <div className='grid md:grid-cols-2 gap-10'>
           <div className="space-y-6">
