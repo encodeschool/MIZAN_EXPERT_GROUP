@@ -4,6 +4,8 @@ import Logo from './static/img/logo.png';
 import HeroBg from './static/img/hero.jpg';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
+import { FaInstagram, FaTiktok, FaFacebook, FaWhatsapp, FaLinkedin, FaYoutube, FaTelegramPlane } from 'react-icons/fa'
+import { FaXTwitter } from "react-icons/fa6";
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -191,6 +193,7 @@ function App() {
               <FaEnvelope className="secondary-color-text text-xl" />
               <span>mizangroup.uz@gmail.com</span>
             </div>
+            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d749.0872945835085!2d69.22961952350185!3d41.32301988688073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slv!4v1759847414223!5m2!1sen!2slv" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
           </div>
           <div className="">
             <form className="space-y-6">
@@ -242,6 +245,35 @@ function App() {
               </div>
             </div>
           </div>
+
+          {/* Social Media Links */}
+          <div className="mt-8 flex justify-center space-x-6">
+            <a href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <FaTelegramPlane className="w-6 h-6" />
+            </a>
+            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <FaInstagram className="w-6 h-6" />
+            </a>
+            <a href="https://www.tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <FaTiktok className="w-6 h-6" />
+            </a>
+            <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <FaFacebook className="w-6 h-6" />
+            </a>
+            <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <FaWhatsapp className="w-6 h-6" />
+            </a>
+            <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <FaXTwitter className="w-6 h-6" />
+            </a>
+            <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <FaLinkedin className="w-6 h-6" />
+            </a>
+            <a href="https://www.youtube.com/@yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <FaYoutube className="w-6 h-6" />
+            </a>
+          </div>
+
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 MIZAN EXPERT GROUP. {t('footer.rights')}</p>
           </div>
