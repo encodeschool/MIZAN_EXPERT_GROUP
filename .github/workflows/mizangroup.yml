@@ -1,11 +1,9 @@
 name: Deploy React Web (MIZAN EXPERT GROUP) to VDS
 on:
   push:
-      paths:
-          - 'mizangroup_uz/**'
+    branches: [ "main" ]
   pull_request:
-      paths:
-          - 'mizangroup_uz/**'
+    branches: [ "main" ]
 
 jobs:
   build-and-deploy:
@@ -47,7 +45,7 @@ jobs:
           username: ${{ secrets.VDS_USER }}
           key: ${{ secrets.VDS_SSH_KEY }}
           source: "mizangroup_uz/web/build/*"
-          target: "~/bazaarly/web"
+          target: "~/mizangroup_uz/web"
 
       - name: Restart Nginx (if needed)
         uses: appleboy/ssh-action@v0.1.8
