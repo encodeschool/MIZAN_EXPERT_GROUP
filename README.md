@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+## 🌐 MIZAN EXPERT GROUP – Official Business Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We’ve developed a **business card website** for **MIZAN EXPERT GROUP**, designed to introduce who they are and what they do.
 
-## Available Scripts
+You can visit the website here:
+👉 [https://mizangroup.uz](https://mizangroup.uz)
+👉 [https://mizanexperts.uz](https://mizanexperts.uz)
 
-In the project directory, you can run:
+### 🧾 About the Company
 
-### `npm start`
+**MIZAN EXPERT GROUP** is a professional outsourcing firm specializing in:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Accounting Services**
+* **Payroll Management**
+* **Financial Consulting**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Their goal is to help businesses streamline financial operations, ensure compliance, and optimize performance through expert accounting and HR solutions.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🛠️ Tech Stack
 
-### `npm run build`
+**Frontend:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React.js
+* Tailwind CSS
+* i18next (multi-language support: EN / RU / UZ)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Backend & Deployment:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Nginx (reverse proxy, SSL, and static hosting)
+* Let’s Encrypt (HTTPS certificates)
+* Ubuntu Server
 
-### `npm run eject`
+**Version Control & Project Setup:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Git / GitHub
+* Node.js + npm build process
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🚀 Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Fully responsive design
+* Multi-language support (English, Russian, Uzbek)
+* SEO-friendly meta structure
+* Integrated contact form and Google Maps
+* Social media links (Telegram, Instagram, Facebook, TikTok, WhatsApp, LinkedIn, YouTube)
+* Secure HTTPS setup with Nginx and SSL
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 👤 Developed by
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Encode Team**
+📧 [info@encode.uz](mailto:info@encode.uz)
+🌐 [https://encode.uz](https://encode.uz)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Would you like me to make a short **Uzbek or Russian version** of this section too (for clients or README localization)?
