@@ -49,12 +49,12 @@ jobs:
           source: "build/"
           target: "~/mizangroup_uz/web"
 
-      - name: Restart Nginx
-        uses: appleboy/ssh-action@v0.1.8
-        with:
-          host: ${{ secrets.VDS_HOST }}
-          username: ${{ secrets.VDS_USER }}
-          key: ${{ secrets.VDS_SSH_KEY }}
-          port: 22
-          script: |
-            sudo systemctl restart nginx
+      # - name: Restart Nginx
+      #   uses: appleboy/ssh-action@v0.1.8
+      #   with:
+      #     host: ${{ secrets.VDS_HOST }}
+      #     username: ${{ secrets.VDS_USER }}
+      #     key: ${{ secrets.VDS_SSH_KEY }}
+      #     port: 22
+      #     script: |
+      #       sudo systemctl restart nginx
