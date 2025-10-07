@@ -1,4 +1,5 @@
 name: Deploy React Web (MIZAN EXPERT GROUP) to VDS
+
 on:
   push:
     branches: [ "main" ]
@@ -20,23 +21,24 @@ jobs:
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
-        working-directory: mizangroup_uz/**
+        working-directory: mizangroup_uz
 
+      # Uncomment if you want to run tests
       # - name: Run tests
       #   run: npm test -- --watchAll=false
-      #   working-directory: mizangroup_uz/web
+      #   working-directory: mizangroup_uz
 
       - name: Build project (log output)
         run: |
           cp .env.production .env
           CI=false npm run build | tee build-logs.txt
-        working-directory: mizangroup_uz/**
+        working-directory: mizangroup_uz
 
       - name: Upload build logs
         uses: actions/upload-artifact@v4
         with:
           name: react-web-build-logs
-          path: mizangroup_uz/web/build-logs.txt
+          path: mizangroup_uz/build-logs.txt
 
       - name: Deploy to VDS
         uses: appleboy/scp-action@v0.1.4
@@ -44,10 +46,10 @@ jobs:
           host: ${{ secrets.VDS_HOST }}
           username: ${{ secrets.VDS_USER }}
           key: ${{ secrets.VDS_SSH_KEY }}
-          source: "mizangroup_uz/web/build/*"
+          source: "mizangroup_uz/build/*"
           target: "~/mizangroup_uz/web"
 
-      - name: Restart Nginx (if needed)
+      - name: Restart Nginx
         uses: appleboy/ssh-action@v0.1.8
         with:
           host: ${{ secrets.VDS_HOST }}
