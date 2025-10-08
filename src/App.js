@@ -248,28 +248,28 @@ function App() {
 
           {/* Social Media Links */}
           <div className="mt-8 flex justify-center space-x-6">
-            <a href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+            <a href="https://t.me/mizanexperts_uz" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
               <FaTelegramPlane className="w-6 h-6" />
             </a>
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+            <a href="https://instagram.com/mizanexperts" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
               <FaInstagram className="w-6 h-6" />
             </a>
-            <a href="https://www.tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+            <a href="https://www.tiktok.com/@mizanexperts" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
               <FaTiktok className="w-6 h-6" />
             </a>
-            <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+            <a href="https://www.facebook.com/mizanexperts" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
               <FaFacebook className="w-6 h-6" />
             </a>
             <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
               <FaWhatsapp className="w-6 h-6" />
             </a>
-            <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+            <a href="https://x.com/mizanexperts" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
               <FaXTwitter className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+            <a href="https://www.linkedin.com/in/mizanexperts" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
               <FaLinkedin className="w-6 h-6" />
             </a>
-            <a href="https://www.youtube.com/@yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+            <a href="https://www.youtube.com/@mizanexperts" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
               <FaYoutube className="w-6 h-6" />
             </a>
           </div>
